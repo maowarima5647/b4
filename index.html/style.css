@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background:rgb(38, 119, 200);
+}
+.leftimg{
+    width: 100%;
+    height: auto;
+    margin-top:10px;
+    text-align: left;
+}
+
+.menu  {
+ text-align: left;   
+}
+.menu ul  {
+    list-style: none;
+    text-align: right;
+}
+
+.menu ul li  {
+    display: inline-block;
+
+}
+
+
+.menu ul li a {
+color: white;
+font-size: 30px;
+padding: 20px;
+display: block;
+}
+
+
+.banner{
+    background: url(./banner.jpg) no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.bannerimg{
+    text-align: center;
+}
+.bannerimg h2{
+background: rgb(167, 185, 131);
+color: #000;: #ddd;
+display: inline-block;text-align: center;
+padding: 15px 10px;
+
+}
+.bannerimg p{
+    background: rgb(167, 185, 131);
+    color: #ddd;
+    text-align: center;
+    padding: 15px 10px;
+    margin: auto;
+    font-size: 20px;
+}
+.about{
+    text-align: center;
+}
+.about-section h2{
+    text-align: center;
+    display: inline-block;
+
+}
